@@ -19,9 +19,16 @@
 
 * `האתר הסטטי הישן`_ (אנגלית, ייתכנו קישורים שבורים).
 * `קורס פייתון`_ לבית הספר.
-
+* `רשימת הדיוור`_  (שימו לב - הכתובת השתנתה).
+* `לוח השנה`_ ב-Google ממשיך לעבוד כרגיל.
 
 
 .. _האתר הסטטי הישן: old/
 
 .. _קורס פייתון: course/
+
+.. _רשימת הדיוור: http://hamakor.org.il/cgi-bin/mailman/listinfo/python-il
+
+.. _לוח השנה: http://www.google.com/calendar/render?cid=vh8q4sckau0qj1bup5sd92g1hk%40group.calendar.google.com
+
+
