@@ -1,4 +1,4 @@
-.. header:: `עברית <index_he.html>`_ English
+.. header:: English `עברית <index_he.html>`_
 
 ====================================
 Python-IL: Israel Python Users Group
