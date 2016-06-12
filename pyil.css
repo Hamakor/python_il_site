@@ -8,7 +8,7 @@ Stylesheet for use with Docutils.
 
 @import url(html4css1.css);
 
-/* Your customizations go here.  For example: 
+/* Your customizations go here.  For example:
 
 h1, h2, h3, h4, h5, h6, p.topic-title {
   font-family: sans-serif }
@@ -18,14 +18,17 @@ h1, h2, h3, h4, h5, h6, p.topic-title {
 /* Note: If document has bgcolor, make sure to disable margin-top in title */
 
 div.header {
-   width: 9em;
    margin: 0 1em;
-   background-color: #ffffcc ;
+   width: 130px;
 }
 
 div.header a {
-   padding: 0 1em;
-   background-color: #ddddaa ;
+   padding: 5px 15px;
+   background-color: #1111cc;
+   color: #ffffff;
+   text-decoration: none;
+   border: 1px solid #000000;
+   border-radius: 5px;
 }
 
 div.header hr {
@@ -33,17 +36,17 @@ div.header hr {
 }
 
 div.header a:hover {
-   background-color: #ffff33 ;
+   background-color: #3333cc;
 }
 
 /* <-- end langbar */
 
-div.document { 
+div.document {
    /*background: PowderBlue;*/
    padding: 0 1em 2em;
 }
 
-h1.title { 
+h1.title {
    padding: 1em 0;
    margin: 0;
 }
