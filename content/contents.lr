@@ -2,6 +2,6 @@ _model: rstpage
 ---
 _template: page.html
 ---
-title: Welcome to python_il_site!
+title: Python-IL: Israel Python Users Group
 ---
 body: body.rst
