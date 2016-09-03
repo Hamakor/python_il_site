@@ -1,42 +1,20 @@
 body {
-    font-family: 'Verdana', sans-serif;
-    margin: 50px 25px;
+    /*margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #a5acb6;
 }
 
-a {
-    color: #2a99b6;
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:5px !important; padding-bottom:0 !important;
+    height: 30px;
+}
+.navbar {min-height:30px !important;}
+.navbar-right > li > a {
+    padding: 0px 5px;
 }
 
-a:hover {
-    color: #33bbdf;
+#head_block {
+    background: url('/static/hadera2.jpg') center center no-repeat;
+    background-size: cover;
+    padding-top: 30px;
 }
 
-header, footer, div.page {
-    width: 760px;
-    margin: 0 auto;
-    background: #daeef3;
-    padding: 20px 30px;
-}
-
-header h1 {
-    color: #169bbd;
-    margin: 0;
-    font-weight: normal;
-    font-size: 42px;
-}
-
-header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin: 0 8px 0 0;
-    padding: 0;
-}
-
-div.page {
-    background: #f1fbfe;
-}
