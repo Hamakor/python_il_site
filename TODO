@@ -1,0 +1,7 @@
++ style: main image etc
++ Language switch
+* scripts to download components (bootstrap, jquery) + make (complain if no lektor)
++ rst plugin: support include attachment
++ Hebrew
+* Carousel picture + link (pyweb, pycon, ???)
+* networking ...

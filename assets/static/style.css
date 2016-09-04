@@ -13,7 +13,7 @@ body {
 }
 
 #head_block {
-    background: url('/static/hadera2.jpg') center center no-repeat;
+    background: url('hadera2.jpg') center center no-repeat;
     background-size: cover;
     padding-top: 30px;
 }
