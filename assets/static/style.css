@@ -1,0 +1,20 @@
+body {
+    /*margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #a5acb6;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:5px !important; padding-bottom:0 !important;
+    height: 30px;
+}
+.navbar {min-height:30px !important;}
+.navbar-right > li > a {
+    padding: 0px 5px;
+}
+
+#head_block {
+    background: url('hadera2.jpg') center center no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+}
+

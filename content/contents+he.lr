@@ -1,0 +1,7 @@
+_model: rstpage
+---
+_template: page.html
+---
+title: ‏Python-IL: משתמשי פייתון בישראל
+---
+body: body+he.rst

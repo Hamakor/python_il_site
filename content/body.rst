@@ -1,9 +1,3 @@
-.. header:: English `עברית <index_he.html>`_
-
-====================================
-Python-IL: Israel Python Users Group
-====================================
-
 About
 =====
 

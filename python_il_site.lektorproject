@@ -1,0 +1,15 @@
+[project]
+name = python_il_site
+
+[alternatives.en]
+name = English
+primary = yes
+locale = en_US
+
+[alternatives.he]
+name = Hebrew
+url_prefix = /he/
+locale = he_IL
+
+[packages]
+lektor-rstfile = 0.2

@@ -1,30 +1,16 @@
-htmls = index_en.html index_he.html
-styles = html4css1.css pyil.css
-helpers = rst2html_hibidi.py hibidi.py
-helpers_garbage = $(helpers:.py=.pyc)
+bootstrap_version = 3.3.7
+bootstrap_pkg = bootstrap-$(bootstrap_version)-dist.zip
 
-RST2HTML = ./rst2html_hibidi.py
-RST2HTML_OPTS = --stylesheet-path=pyil.css --link-stylesheet
+prepare: assets/bs/css/bootstrap.css
 
-all: $(helpers) $(styles) $(htmls)
+$(bootstrap_pkg):
+	wget https://github.com/twbs/bootstrap/releases/download/v$(bootstrap_version)/$@
 
-hibidi.py:
-	wget http://cben-hacks.sourceforge.net/bidi/$@
-	chmod +x $@
-
-rst2html_hibidi.py:
-	wget http://cben-hacks.sourceforge.net/bidi/$@
-	chmod +x $@
-
-html4css1.css:
-	cp `python docutils_css_path.py` .
-
-$(htmls): %.html: %.rst $(helpers)
-	$(RST2HTML) $(RST2HTML_OPTS) $*.rst > $*.rst
+assets/bs/css/bootstrap.css: $(bootstrap_pkg)
+	unzip $(bootstrap_pkg) -d assets
+	mv assets/bootstrap-$(bootstrap_version)-dist assets/bs
+	touch $@ -r $(bootstrap_pkg)
 
 clean:
-	-rm $(htmls) html4css1.css $(helpers_garbage)
-
-# Also delete files you can't recreate offline
-distclean: clean
-	-rm $(helpers)
+	rm -rf assets/bs
+	rm $(bootstrap_pkg)

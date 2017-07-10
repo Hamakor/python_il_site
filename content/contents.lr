@@ -1,0 +1,7 @@
+_model: rstpage
+---
+_template: page.html
+---
+title: Python-IL: Israel Python Users Group
+---
+body: body.rst
